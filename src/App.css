@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  background-color: #fff;
+  border: 1.5px solid rgb(211, 211, 211);
+}
+
+.image-container {
+  display: inline-block;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.share-container {
+  margin-top: 10px;
+}
+
+.share-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 4px;
+  color: #121416;
+  text-decoration: none;
+  border: 1px solid #bcbdbd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+}
+
+.page-link:hover {
+  background-color: #f0f0f0;
+}
+
+.active {
+  background-color: #f15c42;
+  color: white;
+}
+
+.ellipsis {
+  color: #999;
+}
+
+.share-icon {
+  align-items: right;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.share-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 5, 5, 0.39);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #e91e1e;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .image-container {
+    margin-bottom: 10px;
+  }
+
+  .share-icon {
+    font-size: 14px;
+  }
+}
